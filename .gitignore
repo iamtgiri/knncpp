@@ -2,3 +2,4 @@ data/
 .vscode/
 preprocess.py
 output/
+.gitignore
