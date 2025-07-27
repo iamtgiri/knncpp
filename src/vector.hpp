@@ -139,5 +139,19 @@ public:
         }
         return std::sqrt(sum);
     };
+    double euclideanSquaredDistance(const Vector &other) const
+    {
+        if (data.size() != other.data.size())
+        {
+            throw std::invalid_argument("Vectors must be of same size");
+        }
+        double sum = 0.0;
+        for (size_t i = 0; i < data.size(); ++i)
+        {
+            double diff = data[i] - other.data[i];
+            sum += diff * diff;
+        }
+        return sum;
+    }
 };
 #endif // VECTOR_HPP
