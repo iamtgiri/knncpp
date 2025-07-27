@@ -1,4 +1,4 @@
-data/
 .vscode/
-preprocess.py
+build/
+data/
 output/

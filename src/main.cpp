@@ -1,4 +1,6 @@
 // main.cpp
+// Modify ➜ mingw32-make ➜ .\knn.exe
+
 
 #include "data_utils.hpp"    // For load_csv and train_test_split utilities
 #include "knn.hpp"           // Custom KNN class implementation
@@ -33,7 +35,7 @@ int main()
     std::cout << "Prediction time: " << duration.count() << " seconds\n";
 
     // Evaluate performance using accuracy metric
-    std::cout << "Accuracy: " << accuracy_score(y_test, y_pred) * 100 << "%\n";
+    std::cout << "Accuracy Score: " << accuracy_score(y_test, y_pred) * 100 << "%\n";
 
     // Last output:
     // Prediction time: 362.029 seconds  --> Long time likely due to brute-force distance computation on a large dataset
