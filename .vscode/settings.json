@@ -54,6 +54,14 @@
         "sstream": "cpp",
         "chrono": "cpp",
         "ratio": "cpp",
-        "iomanip": "cpp"
-    }
+        "iomanip": "cpp",
+        "bitset": "cpp",
+        "codecvt": "cpp",
+        "cstring": "cpp",
+        "map": "cpp",
+        "unordered_set": "cpp",
+        "regex": "cpp",
+        "cinttypes": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/gcc.exe"
 }
