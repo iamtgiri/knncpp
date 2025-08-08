@@ -142,7 +142,7 @@ This project implements an optimized **K-Nearest Neighbors (k-NN)** classificati
   --neighbors 5 \
   --mode kd-tree \
   --parallel true
-````
+```
 
 ---
 
