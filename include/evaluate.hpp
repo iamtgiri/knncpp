@@ -6,18 +6,14 @@
 #include <vector>
 #include <stdexcept>
 
-// Computes the accuracy of predictions compared to true labels
-// Accuracy = (Number of Correct Predictions) / (Total Predictions)
-//
-// Parameters:
-// - y_test: Ground truth labels
-// - y_pred: Predicted labels by the model
-//
-// Returns:
-// - A double in range [0, 1], representing accuracy as a proportion
-//
-// Throws:
-// - std::invalid_argument if input vectors are of unequal length
+
+/**
+ * Calculates the accuracy score between true labels and predicted labels.
+ * @param y_test Vector of true labels.
+ * @param y_pred Vector of predicted labels.
+ * @return Accuracy as a double value between 0 and 1.
+ * @throws std::invalid_argument if the sizes of y_test and y_pred do not match.
+ */
 double accuracy_score(const std::vector<int> &y_test, const std::vector<int> &y_pred)
 {
     // Sanity check: both vectors must be of same size
