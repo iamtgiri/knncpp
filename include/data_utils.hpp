@@ -26,7 +26,7 @@ void load_csv(const std::string& filename,
 
     std::string line;
 
-    // ✅ Read and parse header to determine number of columns
+    // Read and parse header to determine number of columns
     std::getline(file, line);
     int total_columns = std::count(line.begin(), line.end(), ',') + 1;
     int num_feature_cols = total_columns - 1;
@@ -57,7 +57,7 @@ void load_csv(const std::string& filename,
             }
         }
 
-        // ✅ Store only if row is valid and has correct number of features
+        // Store only if row is valid and has correct number of features
         if (row_valid && row.size() == num_feature_cols) {
             features.push_back(row);
             labels.push_back(label);
