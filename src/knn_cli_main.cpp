@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
     cxxopts::Options options("KNN-Benchmark", "k-NN Benchmarking using Brute Force or KD-Tree with optional OpenMP");
 
-    options.add_options()("d,data", "Path to dataset CSV file", cxxopts::value<std::string>()->default_value("C:\\Users\\Dell\\Desktop\\myWorkPlace\\PROJECTS\\KNN C++\\data\\fashion_combined.csv"))
+    options.add_options()("d,data", "Path to dataset CSV file", cxxopts::value<std::string>()->default_value("E:\\myWorkPlace\\PROJECTS\\KNN C++\\data\\fashion_combined.csv"))
     ("r,test_size", "Train/Test Split Ratio (0.0 - 1.0)", cxxopts::value<float>()->default_value("0.2"))
     ("k,k_neighbors", "Number of Neighbors", cxxopts::value<int>()->default_value("8"))
     ("m,mode", "Algorithm Mode: brute or kdtree", cxxopts::value<std::string>()->default_value("brute"))

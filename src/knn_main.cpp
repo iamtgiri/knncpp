@@ -12,7 +12,7 @@ int main()
 
     // Load preprocessed CSV dataset: each row = [features..., label]
     // Modify path accordingly if running on another system
-    load_csv("C:\\Users\\Dell\\Desktop\\myWorkPlace\\PROJECTS\\KNN C++\\data\\fashion_combined.csv", features, labels);
+    load_csv("E:\\myWorkPlace\\PROJECTS\\KNN C++\\data\\fashion_combined.csv", features, labels);
     std::cout << "[INFO] Loaded data with " << features.size() << " samples\n";
 
     // Split data into training and testing sets

@@ -11,7 +11,7 @@ int main() {
     std::vector<std::vector<double>> features;
     std::vector<int> labels;
 
-    load_csv("C:\\Users\\Dell\\Desktop\\myWorkPlace\\PROJECTS\\KNN C++\\data\\fashion_combined.csv", features, labels);
+    load_csv("E:\\myWorkPlace\\PROJECTS\\KNN C++\\data\\fashion_combined.csv", features, labels);
     std::cout << "[INFO] Loaded " << features.size() << " samples.\n";
 
     std::vector<std::vector<double>> X_train, X_test;

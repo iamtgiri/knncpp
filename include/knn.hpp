@@ -41,7 +41,7 @@ public:
     }
 
     // Predicts class labels for a given test dataset
-    std::vector<int> predict(const std::vector<std::vector<double>> &X_test, bool parallel)
+    std::vector<int> predict(const std::vector<std::vector<double>> &X_test, bool parallel = false)
     {
         if (X_test.empty())
             throw std::invalid_argument("Empty test data.");
