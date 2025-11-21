@@ -1,0 +1,86 @@
+Directory structure of: E:\myWorkPlace\PROJECTS\KNN C++
+
+SQL_LeetCode
+├── .gitignore
+├── CMakeLists.txt
+├── LICENCE
+├── README.md
+├── build
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 4.0.3
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeRCCompiler.cmake
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   ├── a.exe
+│   │   │   │   └── tmp
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       ├── a.exe
+│   │   │       └── tmp
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── FindOpenMP
+│   │   │   ├── ompver_C.bin
+│   │   │   └── ompver_CXX.bin
+│   │   ├── InstallScripts.json
+│   │   ├── Makefile.cmake
+│   │   ├── Makefile2
+│   │   ├── TargetDirectories.txt
+│   │   ├── cmake.check_cache
+│   │   ├── knn_kdtree.dir
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── includes_CXX.rsp
+│   │   │   ├── link.txt
+│   │   │   ├── linkLibs.rsp
+│   │   │   ├── objects.a
+│   │   │   ├── objects1.rsp
+│   │   │   ├── progress.make
+│   │   │   └── src
+│   │   │       ├── KDTree.cpp.obj
+│   │   │       ├── KDTree.cpp.obj.d
+│   │   │       ├── kdtree_knn_main.cpp.obj
+│   │   │       ├── kdtree_knn_main.cpp.obj.d
+│   │   │       ├── knn_cli_main.cpp.obj
+│   │   │       ├── knn_cli_main.cpp.obj.d
+│   │   │       ├── main_kdtree.cpp.obj
+│   │   │       └── main_kdtree.cpp.obj.d
+│   │   ├── pkgRedirects
+│   │   └── progress.marks
+│   ├── Makefile
+│   ├── cmake_install.cmake
+│   └── knn_kdtree.exe
+├── data
+│   ├── Social_Network_Ads_knn_data.csv
+│   ├── fashion_combined.csv
+│   └── student_clustering.csv
+├── directory_structure.txt
+├── include
+│   ├── cxxopts.hpp
+│   ├── data_utils.hpp
+│   ├── evaluate.hpp
+│   ├── kdtree.hpp
+│   ├── kdtree_knn.hpp
+│   ├── knn.hpp
+│   └── vector.hpp
+├── rough_files
+│   ├── kmeans.hpp
+│   ├── kmeans_tester.cpp
+│   ├── knn_tester_1.cpp
+│   ├── knn_tester_2.cpp
+│   └── main.cpp
+└── src
+    ├── kdtree_knn_main.cpp
+    ├── knn_cli_main.cpp
+    └── knn_main.cpp
