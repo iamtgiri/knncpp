@@ -1,4 +1,4 @@
-// knn.hpp (Brute Force K-Nearest Neighbors Classifier)
+// include\knn.hpp (Brute Force K-Nearest Neighbors Classifier)
 
 #ifndef KNN_HPP
 #define KNN_HPP

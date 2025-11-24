@@ -1,4 +1,4 @@
-// kdtree_knn_main.cpp (Using KD-Tree for kNN)
+// src\knn_kdtree_main.cpp (Using KD-Tree for kNN)
 
 #include "data_utils.hpp"
 #include "evaluate.hpp"

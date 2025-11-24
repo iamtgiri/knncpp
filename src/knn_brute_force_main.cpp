@@ -1,4 +1,4 @@
-// knn_main.cpp (Brute-force kNN implementation)
+// src/knn_main.cpp (Brute-force kNN implementation)
 
 #include "data_utils.hpp" // For load_csv and train_test_split utilities
 #include "knn.hpp"        // Custom KNN class implementation

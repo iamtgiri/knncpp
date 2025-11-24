@@ -1,4 +1,4 @@
-// kdtree_knn.hpp (KD-Tree based k-NN Classifier)
+// include\kdtree_knn.hpp (KD-Tree based k-NN Classifier)
 
 #ifndef KDTREE_KNN_HPP
 #define KDTREE_KNN_HPP
